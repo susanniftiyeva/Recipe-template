@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px; 
+}
+.card{
+    width: 100%;
+    max-width: 500px; 
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;     
+  .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .img{
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: center;
+  }
+h3{
+    font-size: 30px;
+    font-family: "Young Serif", serif;
+    color: #2c2d2a;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    color: #52514d;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+}
+.time{
+    background-color: rgb(249, 244, 248);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 500px; 
+    font-size: 12px;
+
+li{
+    color: #333;
+    margin-bottom: 5px;   
+}
+
+ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+ul li strong{
+    margin-left: 7px;
+}
+h4{
+    color: #943f64;
+    margin-bottom: 10px;
+    font-size: 15px;     
+}
+}
+.time li::marker {
+    color: #8b2d56;
+  }
+.Indredients{
+    font-size: 12px; 
+    padding: 20px;
+    
+h3{
+    color: #79332e;
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    margin-bottom: 8px;
+      font-size: 15px;
+}
+ul li{
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    margin-bottom: 5px;   
+
+}
+ul{
+    list-style-type: disc;
+    padding-left: 10px;   
+}}
+.Indredients li::marker {
+    color: #79332e;
+  }
+
+.Instructions{
+    padding-left: 30px;  
+    margin-bottom: 20px;
+
+h3{
+    color: #79332e;
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+ ol li{
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    margin-bottom: 5px;
+    padding-left: 10px;      
+}}
+
+.Instructions li::marker {
+    color: #79332e;
+    font-weight: bold;
+  }
+  hr{
+    width: 450px;
+    margin-bottom: 20px;
+    color: #ddd; 
+  }
+.nutrition{
+    padding-left: 30px;  
+    margin-bottom: 20px;
+  
+h3{
+    color: #79332e;   
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    color: #52514d;
+    font-size: 12px;
+    margin-bottom: 16px;
+
+}
+ table {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+ td {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}}
+
+.nutrition td:nth-child(2) {
+    font-weight: bold;
+    color: #5b3e2b;
+}
+@media (max-width: 768px) {
+    .card {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 10px;
+    }
+
+    .time, .Indredients, .Instructions, .nutrition {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    hr {
+        width: 100%; 
+        margin-bottom: 15px;
+    }
+}
+
+
+
